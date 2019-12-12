@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+  }
+
+.contact-form
+{
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+    margin: 50px auto;
+    width: 350px;
+    padding: 15px;
+}
+
+.contact-form h1 {
+    text-align: center;
+}
+
+  
+
+  input[type=text], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px auto;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  
+
+  .g-recaptcha {
+    width: 304px;
+    margin: 0 auto;
+  }
+  
+.status {
+    font-size: 15px;
+    color: green;
+    padding: 15px;
+}
+
+.status span {
+    color: red;
+}
+
+  .registerbtn {
+    background-color: rgb(74, 148, 197);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
